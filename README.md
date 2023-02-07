@@ -1,5 +1,3 @@
-# homepage-basisrat
+# Basisrat Homepage
 
-Basisrat Homepage via Hugo.
-
-basisrat.aufstehen.de
+https://basisrat.aufstehen.de
