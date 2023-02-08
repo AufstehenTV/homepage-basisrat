@@ -1,3 +1,17 @@
 baseURL: https://basisrat.aufstehen.de/
 languageCode: en-us
 title: Basisrat
+
+markup:
+  asciidocExt:
+    attributes: {}
+    backend: html5
+    extensions: []
+    failureLevel: fatal
+    noHeaderOrFooter: true
+    preserveTOC: false
+    safeMode: unsafe
+    sectionNumbers: false
+    trace: false
+    verbose: false
+    workingFolderCurrent: false
