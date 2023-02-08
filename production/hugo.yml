@@ -6,7 +6,8 @@ markup:
   asciidocExt:
     attributes: {}
     backend: html5
-    extensions: []
+    extensions:
+      - "asciidoctor-html5s"
     failureLevel: fatal
     noHeaderOrFooter: true
     preserveTOC: false
@@ -14,4 +15,4 @@ markup:
     sectionNumbers: false
     trace: false
     verbose: false
-    workingFolderCurrent: false
+    workingFolderCurrent: true

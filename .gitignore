@@ -226,3 +226,5 @@ cython_debug/
 #.idea/
 
 .hugo_build.lock
+production/public/*
+!production/public/static
