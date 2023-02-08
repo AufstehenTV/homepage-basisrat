@@ -1,13 +1,14 @@
 baseURL: https://basisrat.aufstehen.de/
 languageCode: en-us
 title: Basisrat
+theme: "PaperMod"
 
 markup:
   asciidocExt:
     attributes: {}
     backend: html5
-    extensions:
-      - "asciidoctor-html5s"
+    extensions: []
+      # - "asciidoctor-html5s"
     failureLevel: fatal
     noHeaderOrFooter: true
     preserveTOC: false
@@ -15,4 +16,26 @@ markup:
     sectionNumbers: false
     trace: false
     verbose: false
-    workingFolderCurrent: true
+    workingFolderCurrent: false
+
+
+security:
+  enableInlineShortcodes: false
+  exec:
+    allow:
+    - ^dart-sass-embedded$
+    - ^go$
+    - ^npx$
+    - ^postcss$
+    - ^asciidoctor$
+    osEnv:
+    - (?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+)$
+  funcs:
+    getenv:
+    - ^HUGO_
+    - ^CI$
+  http:
+    methods:
+    - (?i)GET|POST
+    urls:
+    - .*

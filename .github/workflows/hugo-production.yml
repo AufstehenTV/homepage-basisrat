@@ -67,7 +67,7 @@ jobs:
           alias asciidoctor="asciidoctor --attribute=experimental=true --attribute=icons=font"
           cd production
           hugo \
-            --verbose \
+            --buildDrafts --gc --verbose \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
