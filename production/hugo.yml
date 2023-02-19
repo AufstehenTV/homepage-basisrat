@@ -78,3 +78,27 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
+languages:
+    en:
+      languageName: "English"
+      weight: 1
+      taxonomies:
+        category: categories
+        tag: tags
+        series: series
+      menu:
+        main:
+          - name: Archive
+            url: archive
+            weight: 5
+          - name: Search
+            url: search/
+            weight: 10
+          - name: Tags
+            url: tags/
+            weight: 10
+          - name: WiKi
+            url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+          - name: Discord
+            url: https://discord.gg/ahpmTvhVmp
