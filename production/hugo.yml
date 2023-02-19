@@ -7,8 +7,8 @@ markup:
   asciidocExt:
     attributes: {}
     backend: html5
-    extensions:
-      - "asciidoctor-html5s"
+    extensions: []
+      # - "asciidoctor-html5s"
     failureLevel: fatal
     noHeaderOrFooter: true
     preserveTOC: false
