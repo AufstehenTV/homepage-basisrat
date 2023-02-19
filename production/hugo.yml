@@ -39,12 +39,20 @@ security:
     urls:
     - .*
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 params:
+  evn: production
+
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
